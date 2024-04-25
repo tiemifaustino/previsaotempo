@@ -13,6 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #ffffff
 }
 
 .box {
@@ -25,12 +26,7 @@ body {
 }
 
 .box-weather {
-  color: #ffffff;
   margin-top: 20px;
-}
-
-.city {
-  font-size: 28px;
 }
 
 .temp {
@@ -45,6 +41,10 @@ body {
 .magnifier {
   width: 20px;
   height: 20%;
+}
+
+h2 {
+  font-size: 28px;
 }
 
 button {
